@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.original{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 1320px;
+    height: 986.07px;
+    display: grid;
+    grid-template-areas: 'first first first'
+    'second second third'
+    'fourth fourth fourth'
+    ;
+    gap: 10px;
+    grid-template-rows: auto 433px 229px;
+
+}
+.main div {
+    background-color: rgb(176, 239, 206);
+    text-align: center;
+    font-size: 30px;
+}
+.box1 {
+    grid-area: first;
+}
+
+.box2 {
+    grid-area: second;
+}
+
+.box3 {
+    grid-area: third;
+}
+
+.box4 {
+    grid-area: fourth;
+}
+
